@@ -15,9 +15,9 @@ const quotes = [
   "In the middle of every difficulty lies opportunity."
 ];
 
-const randomQuoteIdx = Math.floor(Math.random()* quotes.length);
-const randomQuoteLine = quotes[randomQuoteIdx]
 app.get("/", (req, res) => {
+  const randomQuoteIdx = Math.floor(Math.random()* quotes.length);
+  const randomQuoteLine = quotes[randomQuoteIdx]
   res.send(randomQuoteLine);
 });
 
