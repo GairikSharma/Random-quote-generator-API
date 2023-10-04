@@ -1,0 +1,14 @@
+{
+  "name": "quote_1.0",
+  "version": "1.0.0",
+  "description": "Random quote generator API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gairik Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
